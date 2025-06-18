@@ -5,3 +5,23 @@ body {
     font-size: 2rem;
     font-family:'Roboto', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: hsl(180, 100%, 50%);
+}
+
+a:visited {
+    color: hotpink;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    /* color: hsl(150, 100%, 50%); */
+    opacity: 0.2;
+    background: black;
+}
+
+a:active {
+    color: yellow
+}
