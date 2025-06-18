@@ -1,0 +1,31 @@
+/* This is a universal selector*/
+* {
+    font-family: monospace;
+}
+/*These are element selectors*/
+body {
+    font-size: 22px;
+}
+
+p {
+    color: purple;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/* This is a class selector */
+.gray {
+    color: gray;
+}
+
+/* This is an ID selector */
+#second {
+    font-style: italic;
+}
