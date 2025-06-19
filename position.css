@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +21,7 @@ body {
   width: 75vw;
   height: 85vh;
   margin: 40px auto;
+  position: relative;
 }
 
 .inner-container {
@@ -31,4 +36,74 @@ body {
   height: 150px;
   color: #fff;
   padding: 1rem;
+}
+
+.absolute {
+  background: #00f;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.relative {
+  position: relative;
+  background: red;
+  top: 350px;
+  left: 20px;
+}
+
+.fixed {
+  background: #0f0;
+  position: fixed;
+  top: 100px;
+  left: 0;
+}
+
+.sticky {
+  background: #000;
+  position: sticky;
+  top: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+.blue {background: blue}
+.red {background: red}
+.green {background: green}
+
+header, footer {
+  color:#fff;
+  text-align: center;
+  height: 100px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  font-size: 5rem;
+}
+
+footer {
+  background-color: #000;
+  position: sticky;
+  bottom: 0;
+  /* width: 100%; */
+  font-size: 3rem;
+}
+
+a:visited {
+  color: #fff;
+}
+
+.social {
+  background: royalblue;
+  color: #fff;
+  font-size: inherit;
+  padding: 1rem;
+  position: fixed;
+  top: 30%;
+  left: 0;
+  z-index: 1;
 }
